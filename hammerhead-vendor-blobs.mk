@@ -238,4 +238,44 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/lge/hammerhead/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so
+    vendor/lge/hammerhead/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+	vendor/lge/hammerhead/proprietary/media/bootanimation.zip:system/media/bootanimation.zip \
+	vendor/lge/hammerhead/proprietary/app/Messaging/Messaging.apk:system/app/Messaging/Messaging.apk \
+	vendor/lge/hammerhead/proprietary/app/Messaging/lib/arm/libframesequence.so:system/app/Messaging/lib/arm/libframesequence.so \
+	vendor/lge/hammerhead/proprietary/app/Messaging/lib/arm/libgiftranscode.so:system/app/Messaging/lib/arm/libgiftranscode.so \
+	vendor/lge/hammerhead/proprietary/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk:system/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk \
+	vendor/lge/hammerhead/proprietary/app/Chrome/Chrome.apk:system/app/Chrome/Chrome.apk \
+	vendor/lge/hammerhead/proprietary/app/Chrome/lib/arm/libchrome.so:system/app/Chrome/lib/arm/libchrome.so \
+	vendor/lge/hammerhead/proprietary/app/Chrome/lib/arm/libchromium_android_linker.so:system/app/Chrome/lib/arm/libchromium_android_linker.so \
+	vendor/lge/hammerhead/proprietary/app/GoogleCamera/GoogleCamera.apk:system/app/GoogleCamera/GoogleCamera.apk \
+	vendor/lge/hammerhead/proprietary/app/GoogleCamera/lib/arm/libgcam.so:system/app/GoogleCamera/lib/arm/libgcam.so \
+	vendor/lge/hammerhead/proprietary/app/GoogleCamera/lib/arm/libgcam_swig_jni.so:system/app/GoogleCamera/lib/arm/libgcam_swig_jni.so \
+	vendor/lge/hammerhead/proprietary/app/GoogleCamera/lib/arm/libjni_jpegutil.so:system/app/GoogleCamera/lib/arm/libjni_jpegutil.so \
+	vendor/lge/hammerhead/proprietary/app/GoogleCamera/lib/arm/libjni_tinyplanet.so:system/app/GoogleCamera/lib/arm/libjni_tinyplanet.so \
+	vendor/lge/hammerhead/proprietary/app/GoogleCamera/lib/arm/libjpeg.so:system/app/GoogleCamera/lib/arm/libjpeg.so \
+	vendor/lge/hammerhead/proprietary/app/GoogleCamera/lib/arm/liblightcycle.so:system/app/GoogleCamera/lib/arm/liblightcycle.so \
+	vendor/lge/hammerhead/proprietary/app/GoogleCamera/lib/arm/libnativehelper_compat_libc++.so:system/app/GoogleCamera/lib/arm/libnativehelper_compat_libc++.so \
+	vendor/lge/hammerhead/proprietary/app/GoogleCamera/lib/arm/librefocus.so:system/app/GoogleCamera/lib/arm/librefocus.so \
+	vendor/lge/hammerhead/proprietary/app/GoogleCamera/lib/arm/librs.layered_filter_f32.so:system/app/GoogleCamera/lib/arm/librs.layered_filter_f32.so \
+	vendor/lge/hammerhead/proprietary/app/GoogleCamera/lib/arm/librs.layered_filter_fast_f32.so:system/app/GoogleCamera/lib/arm/librs.layered_filter_fast_f32.so \
+	vendor/lge/hammerhead/proprietary/app/GoogleCamera/lib/arm/librsjni.so:system/app/GoogleCamera/lib/arm/librsjni.so \
+	vendor/lge/hammerhead/proprietary/app/GoogleCamera/lib/arm/libRSSupport.so:system/app/GoogleCamera/lib/arm/libRSSupport.so \
+	vendor/lge/hammerhead/proprietary/app/Velvet/Velvet.apk:system/priv-app/Velvet/Velvet.apk \
+	vendor/lge/hammerhead/proprietary/app/Velvet/lib/arm/libgoogle_hotword_jni.so:system/priv-app/Velvet/lib/arm/libgoogle_hotword_jni.so \
+	vendor/lge/hammerhead/proprietary/app/Velvet/lib/arm/libgoogle_recognizer_jni_l.so:system/priv-app/Velvet/lib/arm/libgoogle_recognizer_jni_l.so \
+	vendor/lge/hammerhead/proprietary/app/Velvet/lib/arm/libvcdecoder_jni.so:system/priv-app/Velvet/lib/arm/libvcdecoder_jni.so \
+	vendor/lge/hammerhead/proprietary/app/GoogleHome/GoogleHome.apk:system/app/GoogleHome/GoogleHome.apk \
+	vendor/lge/hammerhead/proprietary/app/FaceLock/FaceLock.apk:system/app/FaceLock/FaceLock.apk \
+	vendor/lge/hammerhead/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
+	vendor/lge/hammerhead/proprietary/app/FaceLock/lib/arm/libfacelock_jni.so:system/app/FaceLock/lib/arm/libfacelock_jni.so\
+	vendor/lge/hammerhead/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/landmark_group_meta_data.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/landmark_group_meta_data.bin \
+	vendor/lge/hammerhead/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin \
+	vendor/lge/hammerhead/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin \
+	vendor/lge/hammerhead/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-3-tree7-wmd.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-3-tree7-wmd.bin \
+	vendor/lge/hammerhead/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-r0-ri30.4a-v24-tree7-2-wmd.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-r0-ri30.4a-v24-tree7-2-wmd.bin \
+	vendor/lge/hammerhead/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-rn30-ri30.5-v24-tree7-2-wmd.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-rn30-ri30.5-v24-tree7-2-wmd.bin \
+	vendor/lge/hammerhead/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-rp30-ri30.5-v24-tree7-2-wmd.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-rp30-ri30.5-v24-tree7-2-wmd.bin \
+	vendor/lge/hammerhead/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-r.8.1.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-r.8.1.bin \
+	vendor/lge/hammerhead/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-y-r.8.1.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-y-r.8.1.bin \
+	vendor/lge/hammerhead/proprietary/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin
+	
